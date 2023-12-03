@@ -1,0 +1,26 @@
+body {
+    padding-top: 54px;
+}
+
+header .welcome {
+    margin-top: 3em;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+.card {
+    height: 100%;
+}
+
+.navbar .navbar-brand {
+    font-size: 1.5rem
+}
+
+
+.btn:hover {
+    filter: brightness(85%);
+}
