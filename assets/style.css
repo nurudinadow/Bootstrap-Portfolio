@@ -1,54 +1,64 @@
+/* Adjusting the top padding of the body to create space for a fixed header */
 body {
-    padding-top: 54px;
+  padding-top: 54px;
 }
 
+/* Adding margin to the welcome class within the header */
 header .welcome {
-    margin-top: 3em;
+  margin-top: 3em;
 }
 
+/* Media query for larger screens, adjusting the top padding of the body */
 @media (min-width: 992px) {
-    body {
-        padding-top: 56px;
-    }
+  body {
+    padding-top: 56px;
+  }
 }
 
+/* Setting the height of the card to 100% */
 .card {
-    height: 100%;
+  height: 100%;
 }
 
+/* Styling the font size of the navbar brand */
 .navbar .navbar-brand {
-    font-size: 1.5rem
+  font-size: 1.5rem;
 }
 
-
+/* Hover effect on buttons to adjust brightness */
 .btn:hover {
-    filter: brightness(85%);
+  filter: brightness(85%);
 }
 
+/* Hover effect on card image top to adjust brightness */
 .card-img-top:hover {
-    filter: brightness(125%);
+  filter: brightness(125%);
 }
 
+/* Hover effect on the entire card, scaling it slightly */
 .card:hover {
-    transform: scale(1.03);
-    transition: transform 0.3s ease;
+  transform: scale(1.03);
+  transition: transform 0.3s ease;
 }
 
+/* Blur effect on the card image top, transitioning the filter property */
 .card-img-top {
-    filter: blur(1px);
-    transition: filter 0.3s ease;
+  filter: blur(1px);
+  transition: filter 0.3s ease;
 }
 
+/* Removing blur on card image top on hover */
 .card-img-top:hover {
-    filter: blur(0);
+  filter: blur(0);
 }
 
+/* Styling for anchor tags to remove default text decoration */
 a {
-    text-decoration: none !important;
+  text-decoration: none !important;
 }
 
-
+/* Hover effect on elements with the rounded-3 class, scaling them slightly */
 .rounded-3:hover {
-    transform: scale(1.1);
-    transition: transform 0.3s ease;
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
 }
